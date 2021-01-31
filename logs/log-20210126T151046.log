@@ -1,0 +1,9 @@
+15:10:53 INFO  - Start test - >textBoxTest
+15:10:53 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+15:10:53 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+15:10:55 INFO  - Start search ->By.xpath: //div[contains(.,'Please select an item from left to start practice.')]
+15:10:55 INFO  - By.xpath: //div[contains(.,'Please select an item from left to start practice.')]<- found
+15:10:55 INFO  - Start search ->By.xpath: //span[contains(.,'Text Box')]
+15:10:55 INFO  - By.xpath: //span[contains(.,'Text Box')]<- found
+15:10:55 INFO  - End of test -> textBoxTest
+************************************

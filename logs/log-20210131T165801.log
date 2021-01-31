@@ -1,0 +1,25 @@
+16:58:04 INFO  - Start test - >alertTest
+16:58:04 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+16:58:04 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+16:58:04 INFO  - Start search ->By.xpath:  //span[normalize-space()='Alerts']
+16:58:04 INFO  - By.xpath:  //span[normalize-space()='Alerts']<- found
+16:58:06 INFO  - Start search ->By.id: alertButton
+16:58:06 INFO  - By.id: alertButton<- found
+16:58:06 INFO  - Start search ->By.id: confirmButton
+16:58:07 INFO  - By.id: confirmButton<- found
+16:58:07 INFO  - Start search ->By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]
+16:58:07 INFO  - By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]<- found
+16:58:07 INFO  - Start search ->By.id: promtButton
+16:58:07 INFO  - By.id: promtButton<- found
+16:58:07 INFO  - Start search ->By.xpath: //span[@id='promptResult'][contains(.,'Abb cc gY')]
+16:58:07 ERROR - org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please enter your name}
+  (Session info: chrome=88.0.4324.104): Please enter your name
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f7146703a0ddcd3ba32d28de3dbbb5e
+*** Element info: {Using=xpath, value=//span[@id='promptResult'][contains(.,'Abb cc gY')]}
+16:58:07 ERROR - src/test/screenshots/screen-1612105087156.png
+16:58:07 INFO  - End of test -> alertTest
+************************************

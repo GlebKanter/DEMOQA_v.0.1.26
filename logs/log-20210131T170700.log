@@ -1,0 +1,11 @@
+17:07:03 INFO  - Start test - >alertTest
+17:07:03 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+17:07:04 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+17:07:04 INFO  - Start search ->By.xpath:  //span[normalize-space()='Alerts']
+17:07:04 INFO  - By.xpath:  //span[normalize-space()='Alerts']<- found
+17:07:06 INFO  - Start search ->By.id: alertButton
+17:07:06 INFO  - By.id: alertButton<- found
+17:07:06 INFO  - Start search ->By.id: timerAlertButton
+17:07:06 INFO  - By.id: timerAlertButton<- found
+17:07:08 INFO  - End of test -> alertTest
+************************************

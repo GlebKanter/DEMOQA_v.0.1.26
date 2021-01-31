@@ -1,0 +1,16 @@
+14:28:48 INFO  - Start test - >clickElementsButton
+14:28:48 INFO  - Start search ->By.className: card mt-4 top-card
+14:28:58 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".card\ mt\-4\ top\-card"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49464}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47af6ba82304a63a437efa9bffc0ca0d
+*** Element info: {Using=class name, value=card mt-4 top-card}
+14:28:58 ERROR - src/test/screenshots/screen-1611664138443.png
+14:29:00 INFO  - Start search ->By.className: element-list collapse show
+14:29:10 INFO  - By.className: element-list collapse show<- found
+14:29:10 INFO  - End of test -> clickElementsButton
+************************************

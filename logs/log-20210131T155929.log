@@ -1,0 +1,15 @@
+15:59:35 INFO  - Start test - >testWindowsNewWidowMassege
+15:59:35 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+15:59:35 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+15:59:35 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+15:59:35 INFO  - By.xpath: //span[.='Browser Windows']<- found
+15:59:35 INFO  - Start search ->By.id: messageWindowButton
+15:59:35 INFO  - By.id: messageWindowButton<- found
+15:59:37 INFO  - Start search ->By.xpath: //body
+16:01:14 ERROR - org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//body
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: EventFiringWebDriver
+16:01:14 INFO  - End of test -> testWindowsNewWidowMassege
+************************************

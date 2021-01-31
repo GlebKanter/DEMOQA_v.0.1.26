@@ -1,0 +1,9 @@
+выбор ОС : String os = System.getProperty("os.name");
+                   System.out.println(os);
+                   if (os.startsWith("Mac")) {
+                       selectElem.sendKeys(Keys.chord(Keys.COMMAND, "a"));
+                   } else {
+                       selectElem.sendKeys(Keys.chord(Keys.CONTROL, "a"));
+                   }
+сдвинуть мышку к объекту Actions actions= new Actions(wd);
+                                 actions.moveToElement(el);

@@ -1,0 +1,30 @@
+
+package com.telran.tests;
+
+        import org.openqa.selenium.By;
+        import org.testng.Assert;
+        import org.testng.annotations.Test;
+
+@Test(enabled= false)
+public void ElementsTest extends TestBase(){
+        app.user().click(By.xPath("//div[contains(text(),'Elements')]")); //Assert #result
+        }
+
+
+
+
+
+@Test(enabled= false)
+public void  CheckBox extends TestBase(){
+
+        app.user().click(By.xPath ("//span[contains(text(),'Home')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Desktop')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Notes')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Commands')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Documents')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'WorkSpace')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Office')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Downloads')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Word File.doc')]"));//Assert #result
+        app.user().click(By.xPath ("//span[contains(text(),'Excel File.doc')]"));//Assert #result
+        }
