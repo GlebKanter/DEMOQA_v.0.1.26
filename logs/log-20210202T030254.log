@@ -1,0 +1,11 @@
+03:02:58 INFO  - Start test - >TestSelectValue
+03:02:58 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+03:02:58 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+03:02:58 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+03:02:58 INFO  - By.xpath: //span[.='Select Menu']<- found
+03:02:58 INFO  - Start search ->By.id: withOptGroup
+03:02:58 INFO  - By.id: withOptGroup<- found
+03:02:58 INFO  - Start search ->By.xpath: //*[text()='Red']
+03:02:58 INFO  - By.xpath: //*[text()='Red']<- found
+03:03:02 INFO  - End of test -> TestSelectValue
+************************************

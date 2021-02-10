@@ -1,0 +1,37 @@
+04:03:37 INFO  - Start test - >textBoxTest
+04:03:37 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+04:03:37 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+04:03:39 INFO  - Start search ->By.xpath: //div[contains(.,'Please select an item from left to start practice.')]
+04:03:39 INFO  - By.xpath: //div[contains(.,'Please select an item from left to start practice.')]<- found
+04:03:39 INFO  - Start search ->By.xpath: //span[contains(.,'Text Box')]
+04:03:39 INFO  - By.xpath: //span[contains(.,'Text Box')]<- found
+04:03:39 INFO  - Start search ->By.id: userName
+04:03:39 INFO  - By.id: userName<- found
+04:03:39 INFO  - Start search ->By.id: userName
+04:03:39 INFO  - By.id: userName<- found
+04:03:39 INFO  - Start search ->By.id: userName
+04:03:39 INFO  - By.id: userName<- found
+04:03:39 INFO  - Start search ->By.id: userEmail
+04:03:39 INFO  - By.id: userEmail<- found
+04:03:39 INFO  - Start search ->By.id: userEmail
+04:03:39 INFO  - By.id: userEmail<- found
+04:03:39 INFO  - Start search ->By.id: userEmail
+04:03:39 INFO  - By.id: userEmail<- found
+04:03:39 INFO  - Start search ->By.id: currentAddress
+04:03:39 INFO  - By.id: currentAddress<- found
+04:03:39 INFO  - Start search ->By.id: currentAddress
+04:03:39 INFO  - By.id: currentAddress<- found
+04:03:39 INFO  - Start search ->By.id: currentAddress
+04:03:39 INFO  - By.id: currentAddress<- found
+04:03:40 INFO  - Start search ->By.id: permanentAddress
+04:03:40 INFO  - By.id: permanentAddress<- found
+04:03:40 INFO  - Start search ->By.id: permanentAddress
+04:03:40 INFO  - By.id: permanentAddress<- found
+04:03:40 INFO  - Start search ->By.id: permanentAddress
+04:03:40 INFO  - By.id: permanentAddress<- found
+04:03:40 INFO  - Start search ->By.id: submit
+04:03:40 INFO  - By.id: submit<- found
+04:03:43 INFO  - Start search ->By.id: //div[@id='output']
+04:03:53 INFO  - By.id: //div[@id='output']<- found
+04:03:53 INFO  - End of test -> textBoxTest
+************************************

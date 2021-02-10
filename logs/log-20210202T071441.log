@@ -1,0 +1,37 @@
+07:14:45 INFO  - Start test - >alertTest
+07:14:45 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+07:14:45 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+07:14:47 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+07:14:47 INFO  - By.xpath: //span[.='Browser Windows']<- found
+07:14:47 INFO  - Start search ->By.xpath:  //span[normalize-space()='Alerts']
+07:14:47 INFO  - By.xpath:  //span[normalize-space()='Alerts']<- found
+07:14:49 INFO  - Start search ->By.id: alertButton
+07:14:49 INFO  - By.id: alertButton<- found
+07:14:49 INFO  - Start search ->By.id: timerAlertButton
+07:14:49 INFO  - By.id: timerAlertButton<- found
+07:14:54 INFO  - Start search ->By.id: confirmButton
+07:14:54 INFO  - By.id: confirmButton<- found
+07:14:54 INFO  - Start search ->By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]
+07:14:55 INFO  - By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]<- found
+07:14:55 INFO  - Start search ->By.id: promtButton
+07:14:55 INFO  - By.id: promtButton<- found
+07:14:55 INFO  - Start search ->By.xpath: //span[@id='promptResult'][contains(.,'Abb cc gY')]
+07:14:55 INFO  - By.xpath: //span[@id='promptResult'][contains(.,'Abb cc gY')]<- found
+07:14:55 INFO  - End of test -> alertTest
+************************************
+07:14:55 INFO  - Start test - >testWindowsNewTab
+07:14:55 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+07:15:05 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[.='Alerts, Frame & Windows']"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60035}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a03846ec0ab525a9501f4554b0e886ee
+*** Element info: {Using=xpath, value=//div//h5[.='Alerts, Frame & Windows']}
+07:15:05 ERROR - src/test/screenshots/screen-1612242905202.png
+07:15:05 INFO  - End of test -> testWindowsNewTab
+************************************
+07:15:05 INFO  - End of test -> testWindowsNewWidow
+************************************

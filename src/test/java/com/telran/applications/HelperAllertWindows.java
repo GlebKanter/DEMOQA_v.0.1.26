@@ -1,7 +1,10 @@
 package com.telran.applications;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.util.ArrayList;
@@ -22,7 +25,8 @@ public class HelperAllertWindows extends HelperBase {
     }
 
     public void selectAlerts() {
-        clickByxPath(" //span[normalize-space()='Alerts']");
+       scroll();
+       clickByxPath(" //span[normalize-space()='Alerts']");
     }
 
     public void clickOnButton(String nameButton) {
@@ -40,10 +44,12 @@ public class HelperAllertWindows extends HelperBase {
 
     public String takeText2() {
         //get elements from webInstrument for window= press CTRL+SHIFT+C
-        return wd.findElement(By.xpath("/html/body")).getText();
+        return wd.findElement(By.xpath("//body//tagName[contains(.,'BODY')]")).getText();
     }
 
-    public void testAlert(int clickNum) throws InterruptedException {
+
+
+    public void testAlert(int clickNum)  {
         switch (clickNum) {
             case 1:
                 wd.switchTo().alert().accept();
@@ -61,5 +67,12 @@ public class HelperAllertWindows extends HelperBase {
         }
 
 
+    }
+
+    public void clickWait() {
+        click(By.id("timerAlertButton"));
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+        alert.accept();
     }
 }

@@ -1,0 +1,7 @@
+02:14:37 INFO  - Start test - >jceTest
+02:14:37 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[1]
+02:14:37 INFO  - By.xpath: //div[@class='category-cards']/div[1]<- found
+02:14:37 INFO  - Start search ->By.xpath: //span[.='Text Box']
+02:14:37 INFO  - By.xpath: //span[.='Text Box']<- found
+02:14:46 INFO  - End of test -> jceTest
+************************************

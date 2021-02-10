@@ -1,0 +1,15 @@
+03:00:09 INFO  - Start test - >testClickOne
+03:00:09 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+03:00:09 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+03:00:09 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+03:00:09 INFO  - By.xpath: //span[.='Select Menu']<- found
+03:00:09 INFO  - Start search ->By.id: withOptGroup
+03:00:09 INFO  - By.id: withOptGroup<- found
+03:00:09 INFO  - Start search ->By.xpath: //*[text()='A root option']
+03:00:09 INFO  - By.xpath: //*[text()='A root option']<- found
+03:00:09 INFO  - Start search ->By.id: selectOne
+03:00:09 INFO  - By.id: selectOne<- found
+03:00:09 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+03:00:09 INFO  - By.xpath: //*[text()='Mr.']<- found
+03:00:12 INFO  - End of test -> testClickOne
+************************************

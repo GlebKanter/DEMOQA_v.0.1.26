@@ -1,0 +1,13 @@
+21:53:48 INFO  - Start test - >testForDataProvider
+21:53:48 INFO  - End of test -> testForDataProvider
+************************************
+21:53:48 INFO  - Start test - >testForDataProviderFromFile
+21:53:48 INFO  - End of test -> testForDataProviderFromFile
+************************************
+21:53:48 INFO  - Start test - >testForLogger
+21:53:48 INFO  - Hello DEMO QA 
+21:53:48 INFO  - End of test -> testForLogger
+************************************
+21:53:48 INFO  - Start test - >testForScreenshots
+21:53:48 INFO  - End of test -> testForScreenshots
+************************************

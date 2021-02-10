@@ -1,0 +1,8 @@
+18:14:49 INFO  - Start test - >testWindowsNewWidowMassege
+18:14:49 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+18:14:49 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+18:14:49 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+18:14:49 INFO  - By.xpath: //span[.='Browser Windows']<- found
+18:14:49 INFO  - Start search ->By.id: messageWindowButton
+18:14:49 INFO  - By.id: messageWindowButton<- found
+18:14:51 INFO  - Start search ->By.xpath: /html/body

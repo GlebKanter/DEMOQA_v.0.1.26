@@ -1,0 +1,9 @@
+05:16:56 INFO  - Start test - >jceTest
+05:16:56 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+05:16:56 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+05:16:56 INFO  - Start search ->By.xpath: //span[.='Text Box']
+05:16:56 INFO  - By.xpath: //span[.='Text Box']<- found
+05:17:27 INFO  - Start search ->By.xpath: //div[@id='output']
+05:17:27 INFO  - By.xpath: //div[@id='output']<- found
+05:18:08 INFO  - End of test -> jceTest
+************************************

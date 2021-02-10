@@ -1,0 +1,103 @@
+22:37:01 INFO  - Start test - >testMultiSelect
+22:37:01 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:37:01 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+22:37:01 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:37:01 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:37:01 INFO  - Start search ->By.id: cars
+22:37:01 INFO  - By.id: cars<- found
+22:37:01 INFO  - Start search ->By.tagName: option
+22:37:01 INFO  - By.tagName: option<- found
+22:37:01 INFO  - Start search ->By.tagName: option
+22:37:01 INFO  - By.tagName: option<- found
+22:37:01 INFO  - Start search ->By.tagName: option
+22:37:01 INFO  - By.tagName: option<- found
+22:37:02 INFO  - Start search ->By.id: selectOne
+22:37:02 INFO  - By.id: selectOne<- found
+22:37:02 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+22:37:02 INFO  - By.xpath: //*[text()='Mr.']<- found
+22:37:07 INFO  - End of test -> testMultiSelect
+************************************
+22:37:07 INFO  - Start test - >testOldStyle
+22:37:07 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:37:17 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4beb12bee1b79cee463db0473e4f5923
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+22:37:17 ERROR - src/test/screenshots/screen-1612730237180.png
+22:37:17 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:37:17 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:37:17 INFO  - Start search ->By.id: oldSelectMenu
+22:37:17 INFO  - By.id: oldSelectMenu<- found
+22:37:17 INFO  - Start search ->By.xpath: //*[text()='Voilet']
+22:37:17 INFO  - By.xpath: //*[text()='Voilet']<- found
+22:37:17 INFO  - End of test -> testOldStyle
+************************************
+22:37:17 INFO  - Start test - >testSelectOne
+22:37:17 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:37:27 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4beb12bee1b79cee463db0473e4f5923
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+22:37:28 ERROR - src/test/screenshots/screen-1612730247805.png
+22:37:28 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:37:28 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:37:28 INFO  - Start search ->By.id: selectOne
+22:37:28 INFO  - By.id: selectOne<- found
+22:37:28 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+22:37:28 INFO  - By.xpath: //*[text()='Mr.']<- found
+22:37:31 INFO  - End of test -> testSelectOne
+************************************
+22:37:31 INFO  - Start test - >testSelectValue
+22:37:31 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:37:41 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4beb12bee1b79cee463db0473e4f5923
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+22:37:41 ERROR - src/test/screenshots/screen-1612730261390.png
+22:37:41 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:37:41 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:37:41 INFO  - Start search ->By.id: withOptGroup
+22:37:41 INFO  - By.id: withOptGroup<- found
+22:37:41 INFO  - Start search ->By.xpath: //*[text()='A root option']
+22:37:41 INFO  - By.xpath: //*[text()='A root option']<- found
+22:37:44 INFO  - End of test -> testSelectValue
+************************************
+22:37:44 INFO  - Start test - >testStandartMultiSelect
+22:37:44 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:37:54 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4beb12bee1b79cee463db0473e4f5923
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+22:37:55 ERROR - src/test/screenshots/screen-1612730274942.png
+22:37:55 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:37:55 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:37:55 INFO  - Start search ->By.id: cars
+22:37:55 INFO  - By.id: cars<- found
+22:37:55 INFO  - Start search ->By.tagName: option
+22:37:55 INFO  - By.tagName: option<- found
+22:37:55 INFO  - Start search ->By.tagName: option
+22:37:55 INFO  - By.tagName: option<- found
+22:37:55 INFO  - Start search ->By.tagName: option
+22:37:55 INFO  - By.tagName: option<- found
+22:37:58 INFO  - End of test -> testStandartMultiSelect
+************************************

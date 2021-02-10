@@ -120,4 +120,8 @@ public class HelperBase {
        pause(2000);
         Assert.assertTrue(isElementPresent(By.xpath("//div[contains(.,'Please select an item from left to start practice.')]")));
     }
+
+    public void scrollUp() {JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("window.scrollBy(300,0)");
+    }
 }

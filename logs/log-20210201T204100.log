@@ -1,0 +1,17 @@
+20:41:07 INFO  - Start test - >testMultiSelect
+20:41:07 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:41:07 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+20:41:08 INFO  - Start search ->By.xpath: //li[@id='item-8']
+20:41:08 INFO  - By.xpath: //li[@id='item-8']<- found
+20:41:11 INFO  - Start search ->By.id: selectOne
+20:41:11 ERROR - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cc049d79788ffe72119da5e49cb739c
+*** Element info: {Using=id, value=selectOne}
+20:41:11 INFO  - End of test -> testMultiSelect
+************************************

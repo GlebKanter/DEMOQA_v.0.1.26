@@ -1,0 +1,16 @@
+21:27:29 INFO  - Start test - >testWindowsNewWidowMassege
+21:27:29 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+21:27:29 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+21:27:29 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+21:27:29 INFO  - By.xpath: //span[.='Browser Windows']<- found
+21:27:29 INFO  - Start search ->By.id: messageWindowButton
+21:27:29 INFO  - By.id: messageWindowButton<- found
+21:27:31 INFO  - Start search ->By.xpath: //body
+21:32:31 ERROR - org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dde6f926b5f1a37e6c5d77831aa8a42b
+*** Element info: {Using=xpath, value=//body}

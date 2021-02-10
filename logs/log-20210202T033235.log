@@ -1,0 +1,9 @@
+03:32:39 INFO  - Start test - >testMultiSelectDropDawn
+03:32:39 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+03:32:39 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+03:32:39 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+03:32:39 INFO  - By.xpath: //span[.='Select Menu']<- found
+03:32:40 INFO  - Start search ->By.xpath: //div[@id='selectMenuContainer']//div[@class='row']//div[@class=' css-2b097c-container']
+03:32:40 INFO  - By.xpath: //div[@id='selectMenuContainer']//div[@class='row']//div[@class=' css-2b097c-container']<- found
+03:32:40 INFO  - End of test -> testMultiSelectDropDawn
+************************************

@@ -1,0 +1,11 @@
+22:36:45 INFO  - Start test - >testOldStyle
+22:36:45 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+22:36:46 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+22:36:46 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+22:36:46 INFO  - By.xpath: //span[.='Select Menu']<- found
+22:36:46 INFO  - Start search ->By.id: oldSelectMenu
+22:36:46 INFO  - By.id: oldSelectMenu<- found
+22:36:46 INFO  - Start search ->By.xpath: //*[text()='Voilet']
+22:36:46 INFO  - By.xpath: //*[text()='Voilet']<- found
+22:36:46 INFO  - End of test -> testOldStyle
+************************************

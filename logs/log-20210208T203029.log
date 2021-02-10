@@ -1,0 +1,255 @@
+20:30:33 INFO  - Start test - >loginTest
+20:30:33 INFO  - Start search ->By.xpath: //div[6]
+20:30:33 INFO  - By.xpath: //div[6]<- found
+20:30:33 INFO  - Start search ->By.xpath: //*[@id='login']
+20:30:33 INFO  - By.xpath: //*[@id='login']<- found
+20:30:33 INFO  - Start search ->By.id: userName
+20:30:33 INFO  - By.id: userName<- found
+20:30:33 INFO  - Start search ->By.id: userName
+20:30:33 INFO  - By.id: userName<- found
+20:30:33 INFO  - Start search ->By.id: userName
+20:30:33 INFO  - By.id: userName<- found
+20:30:33 INFO  - Start search ->By.id: password
+20:30:34 INFO  - By.id: password<- found
+20:30:34 INFO  - Start search ->By.id: password
+20:30:34 INFO  - By.id: password<- found
+20:30:34 INFO  - Start search ->By.id: password
+20:30:34 INFO  - By.id: password<- found
+20:30:34 INFO  - Start search ->By.xpath: //*[@id='login']
+20:30:34 INFO  - By.xpath: //*[@id='login']<- found
+20:30:34 INFO  - Start search ->By.id: submit
+20:30:34 INFO  - By.id: submit<- found
+20:30:34 INFO  - End of test -> loginTest
+************************************
+20:30:39 INFO  - Start test - >testForDataProvider
+20:30:39 INFO  - End of test -> testForDataProvider
+************************************
+20:30:39 INFO  - Start test - >testForDataProviderFromFile
+20:30:39 INFO  - End of test -> testForDataProviderFromFile
+************************************
+20:30:39 INFO  - Start test - >testForLogger
+20:30:39 INFO  - Hello DEMO QA 
+20:30:39 INFO  - End of test -> testForLogger
+************************************
+20:30:39 INFO  - Start test - >testForScreenshots
+20:30:39 INFO  - End of test -> testForScreenshots
+************************************
+20:30:43 INFO  - Start test - >jseTest
+20:30:43 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+20:30:43 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+20:30:43 INFO  - Start search ->By.xpath: //span[.='Text Box']
+20:30:43 INFO  - By.xpath: //span[.='Text Box']<- found
+20:30:43 INFO  - End of test -> jseTest
+************************************
+20:30:47 INFO  - Start test - >testMultiSelect
+20:30:47 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:30:47 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+20:30:47 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+20:30:47 INFO  - By.xpath: //span[.='Select Menu']<- found
+20:30:47 INFO  - Start search ->By.id: cars
+20:30:47 INFO  - By.id: cars<- found
+20:30:47 INFO  - Start search ->By.tagName: option
+20:30:47 INFO  - By.tagName: option<- found
+20:30:48 INFO  - Start search ->By.tagName: option
+20:30:48 INFO  - By.tagName: option<- found
+20:30:48 INFO  - Start search ->By.tagName: option
+20:30:48 INFO  - By.tagName: option<- found
+20:30:48 INFO  - Start search ->By.id: selectOne
+20:30:48 INFO  - By.id: selectOne<- found
+20:30:48 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+20:30:48 INFO  - By.xpath: //*[text()='Mr.']<- found
+20:30:48 INFO  - End of test -> testMultiSelect
+************************************
+20:30:48 INFO  - Start test - >testOldStyle
+20:30:48 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:30:58 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea79491ae631cda410bfa05a8a0974cb
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+20:30:58 ERROR - src/test/screenshots/screen-1612809058458.png
+20:30:58 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+20:30:58 INFO  - By.xpath: //span[.='Select Menu']<- found
+20:30:58 INFO  - Start search ->By.id: oldSelectMenu
+20:30:58 INFO  - By.id: oldSelectMenu<- found
+20:30:58 INFO  - Start search ->By.xpath: //*[text()='Voilet']
+20:30:58 INFO  - By.xpath: //*[text()='Voilet']<- found
+20:30:58 INFO  - End of test -> testOldStyle
+************************************
+20:30:58 INFO  - Start test - >testSelectOne
+20:30:58 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:31:09 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea79491ae631cda410bfa05a8a0974cb
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+20:31:09 ERROR - src/test/screenshots/screen-1612809069001.png
+20:31:09 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+20:31:09 INFO  - By.xpath: //span[.='Select Menu']<- found
+20:31:09 INFO  - Start search ->By.id: selectOne
+20:31:09 INFO  - By.id: selectOne<- found
+20:31:09 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+20:31:09 INFO  - By.xpath: //*[text()='Mr.']<- found
+20:31:09 INFO  - End of test -> testSelectOne
+************************************
+20:31:09 INFO  - Start test - >testSelectValue
+20:31:09 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:31:19 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea79491ae631cda410bfa05a8a0974cb
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+20:31:19 ERROR - src/test/screenshots/screen-1612809079601.png
+20:31:19 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+20:31:19 INFO  - By.xpath: //span[.='Select Menu']<- found
+20:31:20 INFO  - Start search ->By.id: withOptGroup
+20:31:20 INFO  - By.id: withOptGroup<- found
+20:31:20 INFO  - Start search ->By.xpath: //*[text()='A root option']
+20:31:20 INFO  - By.xpath: //*[text()='A root option']<- found
+20:31:20 INFO  - End of test -> testSelectValue
+************************************
+20:31:20 INFO  - Start test - >testStandartMultiSelect
+20:31:20 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+20:31:30 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea79491ae631cda410bfa05a8a0974cb
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+20:31:30 ERROR - src/test/screenshots/screen-1612809090225.png
+20:31:30 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+20:31:30 INFO  - By.xpath: //span[.='Select Menu']<- found
+20:31:30 INFO  - Start search ->By.id: cars
+20:31:30 INFO  - By.id: cars<- found
+20:31:30 INFO  - Start search ->By.tagName: option
+20:31:30 INFO  - By.tagName: option<- found
+20:31:30 INFO  - Start search ->By.tagName: option
+20:31:30 INFO  - By.tagName: option<- found
+20:31:30 INFO  - Start search ->By.tagName: option
+20:31:30 INFO  - By.tagName: option<- found
+20:31:30 INFO  - End of test -> testStandartMultiSelect
+************************************
+20:31:34 INFO  - Start test - >studentRegFormTest
+20:31:34 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+20:31:34 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+20:31:34 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+20:31:34 INFO  - By.xpath: //span[.='Practice Form']<- found
+20:31:34 INFO  - Start search ->By.id: firstName
+20:31:34 INFO  - By.id: firstName<- found
+20:31:34 INFO  - Start search ->By.id: firstName
+20:31:34 INFO  - By.id: firstName<- found
+20:31:34 INFO  - Start search ->By.id: firstName
+20:31:34 INFO  - By.id: firstName<- found
+20:31:34 INFO  - Start search ->By.id: lastName
+20:31:34 INFO  - By.id: lastName<- found
+20:31:34 INFO  - Start search ->By.id: lastName
+20:31:34 INFO  - By.id: lastName<- found
+20:31:35 INFO  - Start search ->By.id: lastName
+20:31:35 INFO  - By.id: lastName<- found
+20:31:35 INFO  - Start search ->By.id: userEmail
+20:31:35 INFO  - By.id: userEmail<- found
+20:31:35 INFO  - Start search ->By.id: userEmail
+20:31:35 INFO  - By.id: userEmail<- found
+20:31:35 INFO  - Start search ->By.id: userEmail
+20:31:35 INFO  - By.id: userEmail<- found
+20:31:35 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+20:31:35 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+20:31:35 INFO  - Start search ->By.id: userNumber
+20:31:35 INFO  - By.id: userNumber<- found
+20:31:35 INFO  - Start search ->By.id: userNumber
+20:31:35 INFO  - By.id: userNumber<- found
+20:31:35 INFO  - Start search ->By.id: userNumber
+20:31:35 INFO  - By.id: userNumber<- found
+20:31:35 INFO  - Start search ->By.id: dateOfBirthInput
+20:31:35 INFO  - By.id: dateOfBirthInput<- found
+20:31:35 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+20:31:35 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+20:31:35 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+20:31:35 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+20:31:35 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+20:31:35 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+20:31:35 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1990"]
+20:31:35 INFO  - By.xpath: .//option[normalize-space(.) = "1990"]<- found
+20:31:35 INFO  - Start search ->By.xpath: //div[.='27']
+20:31:35 INFO  - By.xpath: //div[.='27']<- found
+20:31:35 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+20:31:35 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+20:31:35 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+20:31:35 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+20:31:35 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+20:31:35 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+20:31:35 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+20:31:35 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+20:31:36 INFO  - Start search ->By.cssSelector: label[for='hobbies-checkbox-2']
+20:31:36 INFO  - By.cssSelector: label[for='hobbies-checkbox-2']<- found
+20:31:36 INFO  - Start search ->By.id: currentAddress
+20:31:36 INFO  - By.id: currentAddress<- found
+20:31:36 INFO  - Start search ->By.id: react-select-3-input
+20:31:36 INFO  - By.id: react-select-3-input<- found
+20:31:37 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (745, 574). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3da441f5700fc6cd09bfcc305b28506c
+20:31:37 ERROR - src/test/screenshots/screen-1612809097303.png
+20:31:37 INFO  - Start search ->By.id: react-select-3-input
+20:31:37 INFO  - By.id: react-select-3-input<- found
+20:31:37 INFO  - Start search ->By.id: react-select-3-input
+20:31:37 INFO  - By.id: react-select-3-input<- found
+20:31:37 INFO  - Start search ->By.id: react-select-3-input
+20:31:37 INFO  - By.id: react-select-3-input<- found
+20:31:37 INFO  - Start search ->By.id: react-select-4-input
+20:31:37 INFO  - By.id: react-select-4-input<- found
+20:31:38 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-4-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (1056, 574). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.146)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3da441f5700fc6cd09bfcc305b28506c
+20:31:39 ERROR - src/test/screenshots/screen-1612809098905.png
+20:31:39 INFO  - Start search ->By.id: react-select-4-input
+20:31:39 INFO  - By.id: react-select-4-input<- found
+20:31:39 INFO  - Start search ->By.id: react-select-4-input
+20:31:39 INFO  - By.id: react-select-4-input<- found
+20:31:39 INFO  - Start search ->By.id: react-select-4-input
+20:31:39 INFO  - By.id: react-select-4-input<- found
+20:31:39 INFO  - Start search ->By.id: submit
+20:31:39 INFO  - By.id: submit<- found
+20:31:39 INFO  - End of test -> studentRegFormTest
+************************************
+20:31:43 INFO  - Start test - >testWindowsNewTab
+20:31:45 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+20:31:55 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[.='Browser Windows']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52561}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f11e0cd48baea4cbd8277037aa04f15e
+*** Element info: {Using=xpath, value=//span[.='Browser Windows']}
+20:31:55 ERROR - src/test/screenshots/screen-1612809115296.png
+20:31:55 INFO  - End of test -> testWindowsNewTab
+************************************
+20:31:55 INFO  - End of test -> testWindowsNewWidow
+************************************
+20:31:55 INFO  - End of test -> alertTest
+************************************

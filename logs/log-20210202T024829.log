@@ -1,0 +1,50 @@
+02:48:33 INFO  - Start test - >testClickOne
+02:48:33 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+02:48:33 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+02:48:33 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+02:48:33 INFO  - By.xpath: //span[.='Select Menu']<- found
+02:48:34 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (132, 913). Other element would receive the click: <footer>...</footer>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d819883afa0ff83dcc2010a6f79a8f
+02:48:34 ERROR - src/test/screenshots/screen-1612226914570.png
+02:48:34 INFO  - Start search ->By.id: selectOne
+02:48:44 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#selectOne"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d819883afa0ff83dcc2010a6f79a8f
+*** Element info: {Using=id, value=selectOne}
+02:48:45 ERROR - src/test/screenshots/screen-1612226924981.png
+02:48:45 INFO  - End of test -> testClickOne
+************************************
+02:48:45 INFO  - Start test - >testMultiSelect
+02:48:45 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+02:48:55 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//h5[text()='Widgets']"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54523}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d819883afa0ff83dcc2010a6f79a8f
+*** Element info: {Using=xpath, value=//div//h5[text()='Widgets']}
+02:48:55 ERROR - src/test/screenshots/screen-1612226935356.png
+02:48:55 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+02:48:55 INFO  - By.xpath: //span[.='Select Menu']<- found
+02:48:55 INFO  - Start search ->By.id: cars
+02:48:55 INFO  - By.id: cars<- found
+02:48:55 INFO  - Start search ->By.tagName: option
+02:48:55 INFO  - By.tagName: option<- found
+02:48:56 INFO  - Start search ->By.tagName: option
+02:48:56 INFO  - By.tagName: option<- found
+02:48:56 INFO  - Start search ->By.tagName: option
+02:48:56 INFO  - By.tagName: option<- found
+02:48:56 INFO  - End of test -> testMultiSelect
+************************************

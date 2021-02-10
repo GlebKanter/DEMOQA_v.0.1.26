@@ -1,0 +1,27 @@
+07:30:30 INFO  - Start test - >testForDataProvider
+07:30:30 INFO  - End of test -> testForDataProvider
+************************************
+07:30:30 INFO  - Start test - >testForDataProviderFromFile
+07:30:30 INFO  - End of test -> testForDataProviderFromFile
+************************************
+07:30:30 INFO  - Start test - >testForListener
+07:30:30 INFO  - Start search ->By.className: main-header
+07:30:40 ERROR - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".main\-header"}
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1131dad350adfff95d7de2687d239e12
+*** Element info: {Using=class name, value=main-header}
+07:30:41 ERROR - src/test/screenshots/screen-1612243840716.png
+07:30:41 INFO  - End of test -> testForListener
+************************************
+07:30:41 INFO  - Start test - >testForLogger
+07:30:41 INFO  - Hello DEMO QA 
+07:30:41 INFO  - End of test -> testForLogger
+************************************
+07:30:41 INFO  - Start test - >testForScreenshots
+07:30:41 INFO  - End of test -> testForScreenshots
+************************************

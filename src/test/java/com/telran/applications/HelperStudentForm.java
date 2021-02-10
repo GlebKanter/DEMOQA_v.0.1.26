@@ -36,18 +36,13 @@ public class HelperStudentForm extends HelperBase {
         type(By.id("lastName"), model.getlName());
         type(By.id("userEmail"), model.getEmail());
         selectGender(model.getGender());
-        pause(500);
         type(By.id("userNumber"), model.getPhone());
         selectBday(model.getbDay());
-        //typeBDay(model.getbDay());
         selectSubject(model.getSubject());
-        pause(2000);
         selectHobbies(model.getHobbies());
         typeAddress(model.getAddress());//type(By.cssSelector("#currentAddress"), model.getAddress());
         typeState(model.getState());
-        pause(2000);
         typeCity(model.getCity());
-        pause(6000);
 
     }
 
@@ -80,7 +75,6 @@ public class HelperStudentForm extends HelperBase {
         new Select(wd.findElement(By.cssSelector(".react-datepicker__month-select"))).selectByVisibleText(data[1]);
         new Select((wd.findElement(By.cssSelector(".react-datepicker__year-select")))).selectByVisibleText(data[2]);
 
-        //click(By.xpath(String.format("//div[.='%s']", data[0])));
         List<WebElement> list = wd.findElements(By.xpath(String.format("//div[.='%s']", data[0])));
 
         WebElement el;
@@ -129,5 +123,9 @@ public class HelperStudentForm extends HelperBase {
         } else if (hobbie.equals("Reading")) {
             clickByCss("label[for='hobbies-checkbox-2']");
         } else clickByCss("label[for='hobbies-checkbox-3']");
+
+
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.getElementById('hobbies-checkbox-1').checked=false;");
     }
 }

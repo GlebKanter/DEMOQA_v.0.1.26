@@ -21,8 +21,25 @@ Properties properties;
     HelperUser user;
     HelperStudentForm studentForm;
     String browser;
-    HelperTextBox textBox;
+
     HelperAllertWindows allertWs;
+    HelperSelect select;
+    HelperJCExecuter jcex;
+
+
+
+
+    public HelperJCExecuter jce() {
+        return jcex;
+    }
+
+
+
+    public HelperSelect select(){
+        return select;
+    }
+
+
 
 
 
@@ -30,7 +47,7 @@ Properties properties;
         return allertWs;
     }
 
-    public HelperTextBox textBox() {return textBox;    }
+
 
     public HelperStudentForm StudentForm() {
         return studentForm;
@@ -65,8 +82,10 @@ Properties properties;
         modelBase = new HelperForModelBase(wd);
         user = new HelperUser(wd);
         studentForm = new HelperStudentForm(wd);
-        textBox = new HelperTextBox(wd);
+
         allertWs = new HelperAllertWindows(wd);
+        select = new HelperSelect(wd);
+        jcex = new HelperJCExecuter(wd);
         //Display logback status!
         // LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
         // print logback's internal status

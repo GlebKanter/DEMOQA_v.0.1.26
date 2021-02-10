@@ -1,0 +1,23 @@
+12:33:57 INFO  - Start test - >loginTest
+12:33:57 INFO  - Start search ->By.xpath: //div[6]
+12:33:57 INFO  - By.xpath: //div[6]<- found
+12:33:57 INFO  - Start search ->By.xpath: //*[@id='login']
+12:33:57 INFO  - By.xpath: //*[@id='login']<- found
+12:33:57 INFO  - Start search ->By.id: userName
+12:33:57 INFO  - By.id: userName<- found
+12:33:57 INFO  - Start search ->By.id: userName
+12:33:57 INFO  - By.id: userName<- found
+12:33:57 INFO  - Start search ->By.id: userName
+12:33:57 INFO  - By.id: userName<- found
+12:33:57 INFO  - Start search ->By.id: password
+12:33:57 INFO  - By.id: password<- found
+12:33:57 INFO  - Start search ->By.id: password
+12:33:57 INFO  - By.id: password<- found
+12:33:57 INFO  - Start search ->By.id: password
+12:33:57 INFO  - By.id: password<- found
+12:33:57 INFO  - Start search ->By.xpath: //*[@id='login']
+12:33:57 INFO  - By.xpath: //*[@id='login']<- found
+12:33:57 INFO  - Start search ->By.id: submit
+12:33:58 INFO  - By.id: submit<- found
+12:33:58 INFO  - End of test -> loginTest
+************************************

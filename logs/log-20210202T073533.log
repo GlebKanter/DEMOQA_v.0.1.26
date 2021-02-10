@@ -1,0 +1,91 @@
+07:35:37 INFO  - Start test - >studentRegFormTest
+07:35:37 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+07:35:37 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+07:35:37 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+07:35:37 INFO  - By.xpath: //span[.='Practice Form']<- found
+07:35:37 INFO  - Start search ->By.id: firstName
+07:35:37 INFO  - By.id: firstName<- found
+07:35:37 INFO  - Start search ->By.id: firstName
+07:35:37 INFO  - By.id: firstName<- found
+07:35:37 INFO  - Start search ->By.id: firstName
+07:35:37 INFO  - By.id: firstName<- found
+07:35:37 INFO  - Start search ->By.id: lastName
+07:35:37 INFO  - By.id: lastName<- found
+07:35:37 INFO  - Start search ->By.id: lastName
+07:35:37 INFO  - By.id: lastName<- found
+07:35:37 INFO  - Start search ->By.id: lastName
+07:35:37 INFO  - By.id: lastName<- found
+07:35:37 INFO  - Start search ->By.id: userEmail
+07:35:37 INFO  - By.id: userEmail<- found
+07:35:37 INFO  - Start search ->By.id: userEmail
+07:35:37 INFO  - By.id: userEmail<- found
+07:35:37 INFO  - Start search ->By.id: userEmail
+07:35:37 INFO  - By.id: userEmail<- found
+07:35:37 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+07:35:38 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+07:35:38 INFO  - Start search ->By.id: userNumber
+07:35:38 INFO  - By.id: userNumber<- found
+07:35:38 INFO  - Start search ->By.id: userNumber
+07:35:38 INFO  - By.id: userNumber<- found
+07:35:38 INFO  - Start search ->By.id: userNumber
+07:35:38 INFO  - By.id: userNumber<- found
+07:35:38 INFO  - Start search ->By.id: dateOfBirthInput
+07:35:38 INFO  - By.id: dateOfBirthInput<- found
+07:35:38 INFO  - Start search ->By.cssSelector: .react-datepicker__month-select
+07:35:38 INFO  - By.cssSelector: .react-datepicker__month-select<- found
+07:35:38 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "May"]
+07:35:38 INFO  - By.xpath: .//option[normalize-space(.) = "May"]<- found
+07:35:38 INFO  - Start search ->By.cssSelector: .react-datepicker__year-select
+07:35:38 INFO  - By.cssSelector: .react-datepicker__year-select<- found
+07:35:38 INFO  - Start search ->By.xpath: .//option[normalize-space(.) = "1990"]
+07:35:39 INFO  - By.xpath: .//option[normalize-space(.) = "1990"]<- found
+07:35:39 INFO  - Start search ->By.xpath: //div[.='27']
+07:35:39 INFO  - By.xpath: //div[.='27']<- found
+07:35:39 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+07:35:39 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+07:35:39 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+07:35:39 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+07:35:39 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+07:35:39 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+07:35:39 INFO  - Start search ->By.xpath: //input[@id='subjectsInput']
+07:35:39 INFO  - By.xpath: //input[@id='subjectsInput']<- found
+07:35:41 INFO  - Start search ->By.cssSelector: label[for='hobbies-checkbox-2']
+07:35:41 INFO  - By.cssSelector: label[for='hobbies-checkbox-2']<- found
+07:35:41 INFO  - Start search ->By.id: currentAddress
+07:35:41 INFO  - By.id: currentAddress<- found
+07:35:41 INFO  - Start search ->By.id: react-select-3-input
+07:35:41 INFO  - By.id: react-select-3-input<- found
+07:35:42 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-3-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (745, 574). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86a215d56f46c1d64fede98de95bfd68
+07:35:42 ERROR - src/test/screenshots/screen-1612244142630.png
+07:35:42 INFO  - Start search ->By.id: react-select-3-input
+07:35:42 INFO  - By.id: react-select-3-input<- found
+07:35:42 INFO  - Start search ->By.id: react-select-3-input
+07:35:43 INFO  - By.id: react-select-3-input<- found
+07:35:43 INFO  - Start search ->By.id: react-select-3-input
+07:35:43 INFO  - By.id: react-select-3-input<- found
+07:35:45 INFO  - Start search ->By.id: react-select-4-input
+07:35:45 INFO  - By.id: react-select-4-input<- found
+07:35:46 ERROR - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-4-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;"> is not clickable at point (1056, 574). Other element would receive the click: <div class=" css-1wa3eu0-placeholder">...</div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62324}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86a215d56f46c1d64fede98de95bfd68
+07:35:46 ERROR - src/test/screenshots/screen-1612244146230.png
+07:35:46 INFO  - Start search ->By.id: react-select-4-input
+07:35:46 INFO  - By.id: react-select-4-input<- found
+07:35:46 INFO  - Start search ->By.id: react-select-4-input
+07:35:46 INFO  - By.id: react-select-4-input<- found
+07:35:46 INFO  - Start search ->By.id: react-select-4-input
+07:35:46 INFO  - By.id: react-select-4-input<- found
+07:35:54 INFO  - Start search ->By.id: submit
+07:35:54 INFO  - By.id: submit<- found
+07:35:54 INFO  - End of test -> studentRegFormTest
+************************************

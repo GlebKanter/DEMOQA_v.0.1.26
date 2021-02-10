@@ -13,13 +13,12 @@ public class LoginTest extends TestBase {
     public void loginTest() throws InterruptedException {
 
         app.user().openBookStore();
-       app.user().pause(2000);
+
         app.user().clickLoginButton();
 
-                app.user().fillLoginForm(new User().withuName("GlebKa").withPassword("Tglebson#13"));
+        app.user().fillLoginForm(new User().withuName("GlebKa").withPassword("Tglebson#13"));
 
-                app.user().clickLoginButton();
-
+        app.user().clickLoginButton();
 
         Assert.assertTrue(app.user().isUserLogined());
 

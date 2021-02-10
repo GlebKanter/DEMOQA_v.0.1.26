@@ -1,0 +1,41 @@
+21:56:15 INFO  - Start test - >jseTest
+21:56:15 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+21:56:15 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+21:56:15 INFO  - Start search ->By.xpath: //span[.='Text Box']
+21:56:15 INFO  - By.xpath: //span[.='Text Box']<- found
+21:56:15 INFO  - End of test -> jseTest
+************************************
+21:56:18 INFO  - End of test -> loginTest
+************************************
+21:56:22 INFO  - Start test - >studentRegFormTest
+21:56:22 INFO  - Start search ->By.xpath: //div[@class='category-cards']/div[2]
+21:56:22 INFO  - By.xpath: //div[@class='category-cards']/div[2]<- found
+21:56:22 INFO  - Start search ->By.xpath: //span[.='Practice Form']
+21:56:22 INFO  - By.xpath: //span[.='Practice Form']<- found
+21:56:22 INFO  - Start search ->By.id: firstName
+21:56:22 INFO  - By.id: firstName<- found
+21:56:22 INFO  - Start search ->By.id: firstName
+21:56:22 INFO  - By.id: firstName<- found
+21:56:22 INFO  - Start search ->By.id: firstName
+21:56:22 INFO  - By.id: firstName<- found
+21:56:22 INFO  - Start search ->By.id: lastName
+21:56:22 INFO  - By.id: lastName<- found
+21:56:22 INFO  - Start search ->By.id: lastName
+21:56:22 INFO  - By.id: lastName<- found
+21:56:22 INFO  - Start search ->By.id: lastName
+21:56:22 INFO  - By.id: lastName<- found
+21:56:22 INFO  - Start search ->By.id: userEmail
+21:56:22 INFO  - By.id: userEmail<- found
+21:56:22 INFO  - Start search ->By.id: userEmail
+21:56:22 INFO  - By.id: userEmail<- found
+21:56:22 INFO  - Start search ->By.id: userEmail
+21:56:22 INFO  - By.id: userEmail<- found
+21:56:22 INFO  - Start search ->By.xpath: //label[@for='gender-radio-1']
+21:56:22 INFO  - By.xpath: //label[@for='gender-radio-1']<- found
+21:56:22 INFO  - Start search ->By.id: userNumber
+21:56:22 INFO  - By.id: userNumber<- found
+21:56:22 INFO  - Start search ->By.id: userNumber
+21:56:22 INFO  - By.id: userNumber<- found
+21:56:22 INFO  - Start search ->By.id: userNumber
+21:56:22 INFO  - By.id: userNumber<- found
+21:56:23 INFO  - Start search ->By.id: dateOfBirthInput

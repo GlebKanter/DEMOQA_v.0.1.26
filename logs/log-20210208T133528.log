@@ -1,0 +1,19 @@
+13:35:32 INFO  - Start test - >testMultiSelect
+13:35:32 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+13:35:32 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+13:35:32 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+13:35:32 INFO  - By.xpath: //span[.='Select Menu']<- found
+13:35:32 INFO  - Start search ->By.id: cars
+13:35:32 INFO  - By.id: cars<- found
+13:35:32 INFO  - Start search ->By.tagName: option
+13:35:32 INFO  - By.tagName: option<- found
+13:35:33 INFO  - Start search ->By.tagName: option
+13:35:33 INFO  - By.tagName: option<- found
+13:35:33 INFO  - Start search ->By.tagName: option
+13:35:33 INFO  - By.tagName: option<- found
+13:35:33 INFO  - Start search ->By.id: selectOne
+13:35:33 INFO  - By.id: selectOne<- found
+13:35:33 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+13:35:33 INFO  - By.xpath: //*[text()='Mr.']<- found
+13:35:33 INFO  - End of test -> testMultiSelect
+************************************

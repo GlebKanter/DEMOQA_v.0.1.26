@@ -16,7 +16,7 @@ public class HelperUser extends  HelperBase{
     public void openBookStore() {
         JavascriptExecutor js = (JavascriptExecutor) wd;
         js.executeScript("window.scrollBy(0,300)");
-        clickByxPath("//div[6]");//class="card mt-4 top-card"  'category-cards'
+        clickByxPath("//div[6]");
     }
 
     public void clickLoginButton() { clickByxPath("//*[@id='login']");

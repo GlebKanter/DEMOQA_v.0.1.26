@@ -19,9 +19,9 @@ public class TestExample extends TestBase{
         String screen = "src/test/screenshots/screen-"+(System.currentTimeMillis()/1000%3600)+".png";
         app.getModelBase().takeScreenshot(screen);
     }
-    @Test
+    @Test(priority = 0,enabled = false)
     public void testForListener(){
-        app.getModelBase().click(By.className("main-header"));
+       app.getModelBase().scrollUp(); app.getModelBase().click(By.xpath("//span[normalize-space()='Practice Form']"));
     }
     @Test(dataProvider = "valid", dataProviderClass = DataProviders.class)
     public void testForDataProvider(String fild1, String fild2, String fild3, String fild4, String fild5,

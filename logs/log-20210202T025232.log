@@ -1,0 +1,11 @@
+02:52:37 INFO  - Start test - >testClickOne
+02:52:37 INFO  - Start search ->By.xpath: //div//h5[text()='Widgets']
+02:52:37 INFO  - By.xpath: //div//h5[text()='Widgets']<- found
+02:52:37 INFO  - Start search ->By.xpath: //span[.='Select Menu']
+02:52:37 INFO  - By.xpath: //span[.='Select Menu']<- found
+02:52:37 INFO  - Start search ->By.id: selectOne
+02:52:37 INFO  - By.id: selectOne<- found
+02:52:37 INFO  - Start search ->By.xpath: //*[text()='Mr.']
+02:52:37 INFO  - By.xpath: //*[text()='Mr.']<- found
+02:52:40 INFO  - End of test -> testClickOne
+************************************

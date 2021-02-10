@@ -1,0 +1,15 @@
+05:48:01 INFO  - Start test - >jceTest
+05:48:01 INFO  - Start search ->By.xpath: //h5[contains(.,'Elements')]
+05:48:01 INFO  - By.xpath: //h5[contains(.,'Elements')]<- found
+05:48:01 INFO  - Start search ->By.xpath: //span[.='Text Box']
+05:48:01 INFO  - By.xpath: //span[.='Text Box']<- found
+05:49:43 ERROR - org.openqa.selenium.JavascriptException: javascript error: Invalid or unexpected token
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-I31H4EG', ip: '10.0.0.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\GLEB\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07f10e692c6d6a9832393f809f742c1b
+05:49:45 ERROR - src/test/screenshots/screen-1612237783130.png
+05:52:09 INFO  - End of test -> jceTest
+************************************

@@ -1,0 +1,21 @@
+07:28:52 INFO  - Start test - >alertTest
+07:28:52 INFO  - Start search ->By.xpath: //div//h5[.='Alerts, Frame & Windows']
+07:28:52 INFO  - By.xpath: //div//h5[.='Alerts, Frame & Windows']<- found
+07:28:54 INFO  - Start search ->By.xpath: //span[.='Browser Windows']
+07:28:54 INFO  - By.xpath: //span[.='Browser Windows']<- found
+07:28:54 INFO  - Start search ->By.xpath:  //span[normalize-space()='Alerts']
+07:28:54 INFO  - By.xpath:  //span[normalize-space()='Alerts']<- found
+07:28:56 INFO  - Start search ->By.id: alertButton
+07:28:56 INFO  - By.id: alertButton<- found
+07:28:56 INFO  - Start search ->By.id: timerAlertButton
+07:28:56 INFO  - By.id: timerAlertButton<- found
+07:29:01 INFO  - Start search ->By.id: confirmButton
+07:29:01 INFO  - By.id: confirmButton<- found
+07:29:01 INFO  - Start search ->By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]
+07:29:02 INFO  - By.xpath: //span[@id='confirmResult'][contains(.,'Cancel')]<- found
+07:29:02 INFO  - Start search ->By.id: promtButton
+07:29:02 INFO  - By.id: promtButton<- found
+07:29:02 INFO  - Start search ->By.xpath: //span[@id='promptResult'][contains(.,'Abb cc gY')]
+07:29:02 INFO  - By.xpath: //span[@id='promptResult'][contains(.,'Abb cc gY')]<- found
+07:29:02 INFO  - End of test -> alertTest
+************************************
